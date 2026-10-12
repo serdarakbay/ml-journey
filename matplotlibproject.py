@@ -1,5 +1,5 @@
-import pandas as pd
 import matplotlib.pyplot as plt
+import pandas as pd
 
 zx=pd.read_csv("data.csv")
 counts=zx["Type1"].value_counts()
